@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    font: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+/* LAYOUT ||||
+INICIO DO LOGO */
+
+header {
+    text-align: center;
+    background-color: #f7c600;
+}
+
+header h1 {
+    color: #4e4e4e;
+    padding-top: 10px;
+    font-size: 2.5em;
+}
+
+/*
+***Formatação do Menu***
+*/
+
+a {
+    color: #f7c600;
+    text-decoration: none;
+}
+
+nav {
+    padding: 20px;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    font-weight: bolder;
+    padding: 8px 15px;
+}
+
+nav a:hover {
+    background-color: #be9b26;
+}
+
+/* Área principal */
+
+#principal {
+    padding-top: 15px;
+    width: 920px;
+    margin: 0 auto;
+}
+
+    /*Area de postagem*/
+
+#area-postagem {
+    background-color: white;
+    margin: auto;
+    width: 660px;
+    float: left;
+}
+
+.data-postagem {
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.postagem img {
+    width: 620px;
+}
+
+/*Menu lateral*/
+
+#area-lateral {
+    background-color: #f7c600;
+    width: 240px;
+    float: right;
+}
+
+/* Rodapé */
+
+footer {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    background-color: #CCC;
+}
+
+/* Formatações em geral*/
+
+h2 {
+    color: #f7c600;
+}
+
+
+
+.branco {
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
